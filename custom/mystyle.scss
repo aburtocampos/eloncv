@@ -1,0 +1,656 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+$verde0: #00b894;
+$verde1: #028e73 !important;
+$negro: #666666;
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.top {
+  border-bottom: 6px solid $verde1;
+
+  .c-l {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 0;
+
+    .txt-container {
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
+      h1 {
+        font-size: 250%;
+        color: #028e73;
+      }
+
+      h4 {
+        font-size: 100%;
+        color: $verde1;
+        font-weight: bold;
+      }
+
+      p {
+        display: none;
+      }
+    }
+  }
+
+  .c-c {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    .img-container img {
+      border: 5px solid $verde1;
+      width: 180px;
+    }
+  }
+
+  .c-r {
+    display: block;
+
+    .infotext {
+      text-align: center;
+      align-content: space-between;
+      margin: 0px;
+      margin-bottom: 0px;
+      font-size: 112%;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+
+      ul {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-left: 0;
+
+        li {
+          list-style: none;
+          margin-bottom: 5px;
+
+          a {
+            color: $verde1;
+
+            i {
+              margin-left: 15px;
+              color: $verde1;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.jobs {
+  .col-left {
+    .Work {
+      .jobtitle {
+        text-align: center;
+        margin: 10px 5px 4px 5px;
+        color: #028e73;
+      }
+
+      .card {
+        border-left: 15px solid #028e73;
+        border-color: #028e73;
+
+        .card-body {
+          flex-direction: column;
+
+          .topline {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: stretch;
+            align-content: stretch;
+
+            .date {
+              display: inline-flex;
+              color: #028e73;
+            }
+
+            .place {
+              color: #028e73;
+            }
+          }
+
+          .card-title {
+            font-weight: bold;
+          }
+
+          .company {}
+
+          .card-text {
+            text-align: justify;
+          }
+        }
+      }
+    }
+
+    .education {
+      .edutitle {
+        margin: 10px 5px 4px 5px;
+        color: #028e73;
+      }
+
+      .card {
+        border-left: 15px solid #028e73;
+        border-color: #028e73;
+
+        .card-body {
+          flex-direction: column;
+
+          .topline {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: stretch;
+            align-content: stretch;
+
+            .date {
+              display: inline-flex;
+              color: #028e73;
+            }
+          }
+
+          .card-title {
+            font-weight: bold;
+          }
+
+          .company {}
+
+          .card-text {
+            text-align: justify;
+          }
+        }
+      }
+
+    }
+
+
+
+
+  }
+
+  .col-right {
+
+    .compeskill {
+      .skilltitle {
+        text-align: center;
+        margin: 10px 5px 4px 5px;
+        color: #028e73;
+      }
+
+      .card {
+        padding: 15px 10px;
+        border-color: #028e73;
+
+        .probox {
+          width: 100%;
+          display: inline-flex;
+          justify-content: space-between;
+          margin: 5px 0px;
+
+          span {}
+
+          .progress {
+            margin-bottom: 30px;
+            width: 68%;
+            text-align: right;
+
+            &:last-child {
+              margin-bottom: 0px;
+            }
+
+            .progress-bar.progress-bar-striped.bg-info {
+              background-color: $verde1;
+            }
+          }
+        }
+      }
+    }
+
+    .achieve {
+      .achititle {
+        text-align: center;
+        margin: 10px 5px 4px 5px;
+        color: #028e73;
+      }
+
+      .card {
+        border-right: 15px solid #028e73;
+        border-color: #028e73;
+        padding: 15px 10px;
+
+        .card-body {
+          flex-direction: column;
+          padding: 5px 0px;
+
+          .card-title {
+            font-weight: bold;
+
+            .date {
+              display: inline-flex;
+              color: #028e73;
+              float: right;
+              font-size: 17px;
+            }
+          }
+
+          .company {}
+
+          .card-text {
+            text-align: justify;
+          }
+        }
+      }
+
+    }
+
+
+    .lang {
+      .langtitle {
+        text-align: center;
+        margin: 10px 5px 4px 5px;
+        color: #028e73;
+      }
+
+      .card {
+        border-right: 15px solid #028e73;
+        border-color: #028e73;
+
+        .card-body {
+          flex-direction: column;
+          margin-bottom: 0;
+
+          .card-title {
+            font-weight: bold;
+            padding: 10px 8px;
+            background: #028e73;
+            border-radius: 5px;
+            width: 100%;
+            color: #fff;
+            font-size: 19px;
+            display: inline-flex;
+            margin-bottom: 5px;
+
+            span {
+              color: #028e73;
+              font-size: 16px;
+              background: #fff;
+              border-radius: 15px;
+              padding: 4px 6px;
+              margin: 0px 10px;
+            }
+          }
+
+        }
+
+      }
+    }
+
+
+    .interests {
+      .intetitle {
+        text-align: center;
+        margin: 10px 5px 4px 5px;
+        color: #028e73;
+      }
+
+      .card {
+        border-right: 15px solid #028e73;
+        border-color: #028e73;
+        padding: 25px;
+
+        .card-body {
+          flex-direction: column;
+          padding: 10px 10px;
+
+          .card-title {
+            font-weight: bold;
+
+            span {
+              margin-right: 25px;
+              width: 20px;
+            }
+          }
+
+        }
+
+      }
+    }
+
+
+
+  }
+}
+
+@media (min-width: 576px) {
+  .top {
+    border-bottom: 6px solid $verde1;
+
+    .c-l {
+      flex-direction: column;
+      justify-content: space-around;
+
+      .txt-container {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+          font-size: 300%;
+          color: #028e73;
+        }
+
+        h4 {
+          font-size: 100%;
+          color: $verde1;
+          font-weight: bold;
+        }
+
+        p {
+          display: none;
+        }
+      }
+    }
+
+    .c-c {
+      align-items: center;
+      justify-content: center;
+
+      .img-container img {
+        border: 5px solid $verde1;
+        width: 180px;
+      }
+    }
+
+    .c-r {
+      display: block;
+
+
+      .infotext {
+
+        align-content: space-between;
+        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 112%;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+
+        li {
+          list-style: none;
+          margin-bottom: 5px;
+
+          i {
+            margin-left: 15px;
+            color: $verde1;
+          }
+        }
+      }
+    }
+  }
+
+  .jobs {
+    .col-left {}
+
+    .col-right {
+      .lang {
+        .langtitle {}
+
+        .card {
+
+          .card-body {
+
+            .card-title {
+
+
+              span {}
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+
+
+
+}
+
+@media (min-width: 768px) {
+  .top {
+    .row {
+      padding: 10px 15px;
+
+      .c-l {
+        padding: 0;
+
+        .txt-container {
+          text-align: left;
+
+          h1 {
+            font-size: 220%;
+          }
+
+          p {
+            display: block;
+          }
+        }
+      }
+
+      .c-c {
+        padding: 0;
+
+        .img-container {}
+      }
+
+      .c-r {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+
+        .infotext {
+          text-align: right;
+
+          li {
+            font-size: 100%;
+
+            i {
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .jobs {
+    .col-left {
+      .Work {
+        .jobtitle {
+          text-align: left;
+          margin: 8px;
+        }
+
+        .card {
+          .card-body {
+            .topline {
+              .date {}
+
+              .place {}
+            }
+
+            .card-title {}
+
+            .company {}
+
+            .card-text {}
+          }
+        }
+      }
+
+      .education {}
+    }
+
+    .col-right {
+      .compeskill {
+        .skilltitle {
+          text-align: left;
+        }
+
+        .card {
+          .probox {
+            display: inline-block;
+
+            span {}
+
+            .progress {
+              width: 100%;
+
+              &:last-child {}
+
+              .progress-bar.progress-bar-striped.bg-info {}
+            }
+          }
+        }
+      }
+
+      .achieve {
+        .achititle {
+          text-align: left;
+
+        }
+
+        .card {
+
+
+          .card-body {
+
+            .card-title {
+
+              .date {}
+            }
+
+          }
+        }
+
+      }
+
+
+      .lang {
+        .langtitle {
+          text-align: left;
+
+        }
+
+        .card {
+
+          .card-body {
+
+
+            .card-title {
+              width: fit-content;
+
+              span {}
+            }
+
+          }
+
+        }
+      }
+
+
+      .interests {
+        .intetitle {
+          text-align: left;
+        }
+
+        .card {
+          .card-body {
+
+            .card-title {
+
+              span {}
+            }
+
+          }
+
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .jobs {
+    .col-left {
+      .Work {
+        .jobtitle {}
+
+        .card {
+          .card-body {
+            .topline {
+              .date {}
+
+              .place {}
+            }
+
+            .card-title {}
+
+            .company {}
+
+            .card-text {}
+          }
+        }
+
+      }
+
+      .education {}
+
+    }
+
+    .col-right {
+      .compeskill {
+        .skilltitle {}
+
+        .card {
+          .probox {
+            display: inline-flex;
+
+            span {}
+
+            .progress {
+              width: 68%;
+
+              &:last-child {}
+
+              .progress-bar.progress-bar-striped.bg-info {}
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+
+}
+
+@media (min-width: 1200px) {}
