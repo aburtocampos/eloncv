@@ -22,7 +22,7 @@ const app = new Vue({
         url: "https://www.twitter.com/kikeaburto.0"
       },
       {
-        name: "www.aburtito.com",
+        name: "Mi Blog",
         icon: "fas fa-globe",
         url: "https://www.aburtito.com"
       }
