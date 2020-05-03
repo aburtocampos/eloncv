@@ -11,6 +11,11 @@ const app = new Vue({
         icon: "fab fa-whatsapp",
         url: "tel:50588503574"
       },
+        {
+        name: "76092930",
+        icon: "fab fa-whatsapp",
+        url: "tel:50576092930"
+      },
       {
         name: "Jinotepe, Carazo",
         icon: "fas fa-map-marker-alt",
