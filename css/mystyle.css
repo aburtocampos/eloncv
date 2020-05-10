@@ -277,18 +277,18 @@ body {
   text-align: justify;
 }
 
-.jobs .col-right .lang .langtitle {
+.jobs .col-left .lang .langtitle {
   text-align: center;
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
 
-.jobs .col-right .lang .card {
+.jobs .col-left .lang .card {
   border-right: 15px solid #028e73;
   border-color: #028e73;
 }
 
-.jobs .col-right .lang .card .card-body {
+.jobs .col-left .lang .card .card-body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -296,7 +296,7 @@ body {
   margin-bottom: 0;
 }
 
-.jobs .col-right .lang .card .card-body .card-title {
+.jobs .col-left .lang .card .card-body .card-title {
   font-weight: bold;
   padding: 10px 8px;
   background: #028e73;
@@ -310,7 +310,7 @@ body {
   margin-bottom: 5px;
 }
 
-.jobs .col-right .lang .card .card-body .card-title span {
+.jobs .col-left .lang .card .card-body .card-title span {
   color: #028e73;
   font-size: 16px;
   background: #fff;
