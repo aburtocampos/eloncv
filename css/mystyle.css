@@ -284,7 +284,7 @@ body {
 }
 
 .jobs .col-left .lang .card {
-  border-right: 15px solid #028e73;
+  border-left: 15px solid #028e73;
   border-color: #028e73;
 }
 
@@ -472,7 +472,7 @@ body {
   .jobs .col-right .achieve .achititle {
     text-align: left;
   }
-  .jobs .col-right .lang .langtitle {
+  .jobs .col-left .lang .langtitle {
     text-align: left;
   }
   .jobs .col-right .lang .card .card-body .card-title {
