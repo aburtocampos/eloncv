@@ -96,7 +96,29 @@
                                 </div>
                             </div>
                         </div>
+                          <div class="lang">
+                            <h3 class="langtitle"><i class="fas fa-language"></i> Languages</h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="card w-100 my-2">
+                                        <ul class="card-body">
+                                            <li class="card-title" v-for="item in lang">{{item.title[0]}}
+                                                <span>{{item.level[3]}}</span>
+                                            </li>
+                                            <li class="card-title" v-for="item in lang">{{item.title[1]}}
+                                                <span>{{item.level[2]}}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
                     </div>
+                    
+                    
                     <div class="col-md-6 col-right">
                         <div class="compeskill">
                             <h3 class="skilltitle"><i class="fas fa-chart-line"></i> Competences</h3>
@@ -140,7 +162,14 @@
                             <h3 class="skilltitle"><i class="fas fa-user-tie"></i> Skills</h3>
                             <div class="card">
 
-
+ <div class="probox">
+                                    <span>Pixel Perfect</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                            style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="probox">
                                     <span>Wordpress</span>
                                     <div class="progress">
@@ -222,23 +251,7 @@
                             </div>
                         </div>
 
-                        <div class="lang">
-                            <h3 class="langtitle"><i class="fas fa-language"></i> Languages</h3>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="card w-100 my-2">
-                                        <ul class="card-body">
-                                            <li class="card-title" v-for="item in lang">{{item.title[0]}}
-                                                <span>{{item.level[3]}}</span>
-                                            </li>
-                                            <li class="card-title" v-for="item in lang">{{item.title[1]}}
-                                                <span>{{item.level[2]}}</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      
 
 
                         <div class="interests">
