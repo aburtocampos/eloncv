@@ -324,6 +324,11 @@ body {
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
+.jobs .col-right .download .intetitle {
+  text-align: center;
+  margin: 10px 5px 4px 5px;
+  color: #028e73;
+}
 
 .jobs .col-right .interests .card {
   border-right: 15px solid #028e73;
@@ -331,7 +336,20 @@ body {
   padding: 25px;
 }
 
+.jobs .col-right .download .card {
+  border-right: 15px solid #028e73;
+  border-color: #028e73;
+  padding: 25px;
+}
+
 .jobs .col-right .interests .card .card-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 10px;
+}
+.jobs .col-right .download .card .card-body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -481,6 +499,9 @@ body {
     width: fit-content;
   }
   .jobs .col-right .interests .intetitle {
+    text-align: left;
+  }
+  .jobs .col-right .download .intetitle {
     text-align: left;
   }
 }
