@@ -2,7 +2,14 @@
 body {
   font-family: "Lato", sans-serif;
 }
+.btn-outline-info{
+color: #028e73;
+  border-color: #028e73;
+}
+.btn-outline-info:hover{
+background-color: #028e73;
 
+}
 .top {
   border-bottom: 6px solid #028e73 !important;
 }
