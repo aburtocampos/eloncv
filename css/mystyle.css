@@ -5,6 +5,8 @@ body {
 .btn-outline-info{
 color: #028e73;
   border-color: #028e73;
+  font-weight: bold;
+    font-size: 19px;
 }
 .btn-outline-info:hover{
 background-color: #028e73;
@@ -346,7 +348,7 @@ background-color: #028e73;
 .jobs .col-right .download .card {
   border-right: 15px solid #028e73;
   border-color: #028e73;
-  padding: 25px;
+  padding: 13px;
 }
 
 .jobs .col-right .interests .card .card-body {
