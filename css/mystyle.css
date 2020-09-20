@@ -2,16 +2,7 @@
 body {
   font-family: "Lato", sans-serif;
 }
-.btn-outline-info{
-color: #028e73;
-  border-color: #028e73;
-  font-weight: bold;
-    font-size: 19px;
-}
-.btn-outline-info:hover{
-background-color: #028e73;
 
-}
 .top {
   border-bottom: 6px solid #028e73 !important;
 }
@@ -62,9 +53,35 @@ background-color: #028e73;
   padding: 10px;
 }
 
-.top .c-c .img-container img {
-  border: 5px solid #028e73 !important;
+.top .c-c .carousel {
   width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #028e73 !important;
+  overflow: hidden;
+}
+
+.top .c-c .carousel .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  width: 170px;
+  height: 170px;
+}
+
+.top .c-c .carousel .image-container img {
+  width: 170px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 0px solid #028e73 !important;
+  margin: 5px;
 }
 
 .top .c-r {
@@ -286,18 +303,18 @@ background-color: #028e73;
   text-align: justify;
 }
 
-.jobs .col-left .lang .langtitle {
+.jobs .col-right .lang .langtitle {
   text-align: center;
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
 
-.jobs .col-left .lang .card {
-  border-left: 15px solid #028e73;
+.jobs .col-right .lang .card {
+  border-right: 15px solid #028e73;
   border-color: #028e73;
 }
 
-.jobs .col-left .lang .card .card-body {
+.jobs .col-right .lang .card .card-body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -305,7 +322,7 @@ background-color: #028e73;
   margin-bottom: 0;
 }
 
-.jobs .col-left .lang .card .card-body .card-title {
+.jobs .col-right .lang .card .card-body .card-title {
   font-weight: bold;
   padding: 10px 8px;
   background: #028e73;
@@ -319,7 +336,7 @@ background-color: #028e73;
   margin-bottom: 5px;
 }
 
-.jobs .col-left .lang .card .card-body .card-title span {
+.jobs .col-right .lang .card .card-body .card-title span {
   color: #028e73;
   font-size: 16px;
   background: #fff;
@@ -333,11 +350,6 @@ background-color: #028e73;
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
-.jobs .col-right .download .intetitle {
-  text-align: center;
-  margin: 10px 5px 4px 5px;
-  color: #028e73;
-}
 
 .jobs .col-right .interests .card {
   border-right: 15px solid #028e73;
@@ -345,20 +357,7 @@ background-color: #028e73;
   padding: 25px;
 }
 
-.jobs .col-right .download .card {
-  border-right: 15px solid #028e73;
-  border-color: #028e73;
-  padding: 13px;
-}
-
 .jobs .col-right .interests .card .card-body {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 10px 10px;
-}
-.jobs .col-right .download .card .card-body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -499,7 +498,7 @@ background-color: #028e73;
   .jobs .col-right .achieve .achititle {
     text-align: left;
   }
-  .jobs .col-left .lang .langtitle {
+  .jobs .col-right .lang .langtitle {
     text-align: left;
   }
   .jobs .col-right .lang .card .card-body .card-title {
@@ -508,9 +507,6 @@ background-color: #028e73;
     width: fit-content;
   }
   .jobs .col-right .interests .intetitle {
-    text-align: left;
-  }
-  .jobs .col-right .download .intetitle {
     text-align: left;
   }
 }
