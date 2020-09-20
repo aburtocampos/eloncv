@@ -122,7 +122,7 @@ body {
 }
 
 .jobs .col-left .Work .jobtitle {
-  text-align: center;
+  text-align: left;
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
@@ -181,6 +181,7 @@ body {
 .jobs .col-left .education .edutitle {
   margin: 10px 5px 4px 5px;
   color: #028e73;
+  text-align: left;
 }
 
 .jobs .col-left .education .card {
@@ -230,8 +231,50 @@ body {
   text-align: justify;
 }
 
+.jobs .col-left .lang .langtitle {
+  text-align: left;
+  margin: 10px 5px 4px 5px;
+  color: #028e73;
+}
+
+.jobs .col-left .lang .card {
+  border-left: 15px solid #028e73;
+  border-color: #028e73;
+}
+
+.jobs .col-left .lang .card .card-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0;
+}
+
+.jobs .col-left .lang .card .card-body .card-title {
+  font-weight: bold;
+  padding: 10px 18px;
+  background: #028e73;
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+  font-size: 19px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+.jobs .col-left .lang .card .card-body .card-title span {
+  color: #028e73;
+  font-size: 16px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 4px 6px;
+  margin: 0px 10px;
+}
+
 .jobs .col-right .compeskill .skilltitle {
-  text-align: center;
+  text-align: left;
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
@@ -239,6 +282,7 @@ body {
 .jobs .col-right .compeskill .card {
   padding: 15px 10px;
   border-color: #028e73;
+  border-right: 15px solid #028e73;
 }
 
 .jobs .col-right .compeskill .card .probox {
@@ -267,7 +311,7 @@ body {
 }
 
 .jobs .col-right .achieve .achititle {
-  text-align: center;
+  text-align: left;
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
@@ -303,50 +347,8 @@ body {
   text-align: justify;
 }
 
-.jobs .col-right .lang .langtitle {
-  text-align: center;
-  margin: 10px 5px 4px 5px;
-  color: #028e73;
-}
-
-.jobs .col-right .lang .card {
-  border-right: 15px solid #028e73;
-  border-color: #028e73;
-}
-
-.jobs .col-right .lang .card .card-body {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 0;
-}
-
-.jobs .col-right .lang .card .card-body .card-title {
-  font-weight: bold;
-  padding: 10px 8px;
-  background: #028e73;
-  border-radius: 5px;
-  width: 100%;
-  color: #fff;
-  font-size: 19px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-bottom: 5px;
-}
-
-.jobs .col-right .lang .card .card-body .card-title span {
-  color: #028e73;
-  font-size: 16px;
-  background: #fff;
-  border-radius: 15px;
-  padding: 4px 6px;
-  margin: 0px 10px;
-}
-
 .jobs .col-right .interests .intetitle {
-  text-align: center;
+  text-align: left;
   margin: 10px 5px 4px 5px;
   color: #028e73;
 }
@@ -372,6 +374,38 @@ body {
 .jobs .col-right .interests .card .card-body .card-title span {
   margin-right: 25px;
   width: 20px;
+}
+
+.jobs .col-right .download .intetitle {
+  text-align: left;
+  margin: 10px 5px 4px 5px;
+  color: #028e73;
+}
+
+.jobs .col-right .download .card {
+  border-right: 15px solid #028e73;
+  border-color: #028e73;
+  padding: 25px;
+}
+
+.jobs .col-right .download .card .card-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 10px;
+}
+
+.jobs .col-right .download .card .card-body .btn-outline-info {
+  color: #028e73;
+  border-color: #028e73;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.jobs .col-right .download .card .card-body .btn-outline-info:hover {
+  background-color: #028e73;
+  color: #fff;
 }
 
 @media (min-width: 576px) {
