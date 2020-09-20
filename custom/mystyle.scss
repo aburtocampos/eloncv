@@ -44,10 +44,32 @@ body {
     justify-content: center;
     padding: 10px;
 
-    .img-container img {
-      border: 5px solid $verde1;
+    .carousel {
       width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background-color: $verde1;
+      overflow: hidden;
+
+      .image-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+
+        width: 170px;
+        height: 170px;
+
+        img {
+          width: 170px;
+          height: 170px;
+          object-fit: cover;
+          border: 0px solid $verde1;
+          margin: 5px;
+        }
+      }
     }
+
+
   }
 
   .c-r {

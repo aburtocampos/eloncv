@@ -11,7 +11,7 @@ const app = new Vue({
         icon: "fab fa-whatsapp",
         url: "tel:50588503574"
       },
-        {
+      {
         name: "76092930",
         icon: "fab fa-whatsapp",
         url: "tel:50576092930"
@@ -29,7 +29,7 @@ const app = new Vue({
       {
         name: "Mi Blog",
         icon: "fas fa-globe",
-        url: "https://www.aburtito.com"
+        url: "https://aburtocampos.blogspot.com"
       }
     ],
     workexperience: [{
@@ -125,3 +125,20 @@ const app = new Vue({
     ]
   }
 });
+
+
+const imgs = document.getElementById('imgs');
+const img = document.querySelectorAll('#imgs img');
+let idx = 0;
+
+function run() {
+  idx++;
+
+  if (idx > img.length - 1) {
+    idx = 0;
+  }
+  imgs.style.transform = `translateX(${-idx * 180}px)`;
+  setTimeout(run, 2000);
+
+}
+run();
