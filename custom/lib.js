@@ -68,7 +68,7 @@ const app = new Vue({
     education: [{
         title: "Major in English Teacher",
         date: "",
-        entity: "Paulo Freire University",
+        entity: "UNAN Managua",
         current: true
       },
       {
