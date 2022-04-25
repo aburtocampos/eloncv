@@ -24,7 +24,7 @@ const app = new Vue({
       {
         name: "aburtoCampos",
         icon: "fab fa-linkedin",
-        url: "www.linkedin.com/in/aburtoCampos"
+        url: "https://www.linkedin.com/in/aburtoCampos"
       },
       {
         name: "Mi Blog",
@@ -33,35 +33,59 @@ const app = new Vue({
       }
     ],
     workexperience: [{
-        companyname: "Accedo Technologies",
+        companyname: "Media Sparehead Inc.",
         position: "Web Designer",
         place: "Managua, Nic.",
-        date: "01/2018",
-        description: "Pixel perfect, Transfer PSD mock-ups to HTML5, use of Bootstrap, and Css rules, Responsive designs, Wordpress editions, etc.",
+        date: "2022",
+        description: "Design, edit web site, data-entry tasks, Responsive designs, Wordpress editions, and some graphic design tasks.",
         current: true
+      },
+      {
+        companyname: "Accedo Technologies",
+        position: "Web Designer / Developer",
+        place: "Managua, Nic.",
+        date: "2018 - 2022",
+        description: "Design, edit web site, data-entry tasks, quality analyst methodology, contracts analysis and product management among other tasks, using ReactJS basic, .Net , C# and SQL tools. Transfer PSD mock-ups to HTML5, use of Bootstrap, and Css rules, Responsive designs, Wordpress editions, etc.",
+        current: false
       },
       {
         companyname: "Concentrix",
         position: "Chat & Email Advisor",
         place: "Managua, Nic.",
         date: "02/2017",
-        description: "Answer emails and chats to customers from UK and USA regarding Tech issues with their mobile devices and app store management.",
+        description: "Technical assistant and product invoice reviews via emails and chats regarding Tech issues with their mobile devices and app store management.",
         current: false
       },
       {
         companyname: "Sitel",
-        position: "Email Advisor",
+        position: "Customer Service Representative",
         place: "Managua, Nic.",
-        date: "01/2016",
-        description: "Answer emails and chats to customers from USA regarding an specific product and deliveries.",
+        date: "2016",
+        description: "Booking Specialist for American hotels and resorts and data entry tasks.",
         current: false
       },
       {
         companyname: "Manuel Hernandez High School",
         position: "Substitute Teacher",
         place: "Carazo, Nic.",
-        date: "02/2015",
-        description: "Provide assistance and taugh to students from a local High School in the assigments of Math and English.",
+        date: "2015",
+        description: "Provide assistance and taught to students from a local High School in the assigments of Math and English.",
+        current: false
+      },
+    {
+        companyname: "Academia de Ingles",
+        position: "English Teacher Part Time",
+        place: "Carazo, Nic.",
+        date: "2012",
+        description: "Taught basic English to young and adult people as second language.",
+        current: false
+      },
+      {
+        companyname: "INSUES Granada",
+        position: "Computer Science Teacher",
+        place: "Granada, Nic.",
+        date: "2009",
+        description: "Taught basic computer knowledge to young and adult people.",
         current: false
       }
     ],
