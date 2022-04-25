@@ -52,7 +52,7 @@ const app = new Vue({
         companyname: "Concentrix",
         position: "Chat & Email Advisor",
         place: "Managua, Nic.",
-        date: "02/2017",
+        date: "2017",
         description: "Technical assistant and product invoice reviews via emails and chats regarding Tech issues with their mobile devices and app store management.",
         current: false
       },
