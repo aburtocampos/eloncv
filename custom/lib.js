@@ -37,7 +37,7 @@ const app = new Vue({
         position: "Web Designer",
         place: "Managua, Nic.",
         date: "2022",
-        description: "Design, edit web site, data-entry tasks, Responsive designs, Wordpress editions, and some graphic design tasks.",
+        description: "-(Part Time) Design, edit web site, using wordpress as designer only, and  some skills of graphic design, corporate and personal branding management and some tasks as data-entry. Wireframing, prototyping using the UI - UX skills. Static html and css designs. Rebuilt corporate website, simplifying graphics navigation and overall modernizing to accommodate new technology such as mobile devices",
         current: true
       },
       {
