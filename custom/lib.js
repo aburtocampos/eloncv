@@ -35,23 +35,23 @@ const app = new Vue({
     workexperience: [{
         companyname: "Media Sparehead Inc.",
         position: "Web Designer",
-        place: "Managua, Nic.",
+        place: "Managua, Nic. - REMOTE",
         date: "2022",
         description: "-(Part Time) Design, edit web site, using wordpress as designer only, and  some skills of graphic design, corporate and personal branding management and some tasks as data-entry. Wireframing, prototyping using the UI - UX skills. Static html and css designs. Rebuilt corporate website, simplifying graphics navigation and overall modernizing to accommodate new technology such as mobile devices",
-        current: true
+        current: false
       },
       {
         companyname: "Accedo Technologies",
         position: "Web Designer / Developer",
-        place: "Managua, Nic.",
+        place: "Managua, Nic. - REMOTE/ONSITE",
         date: "2018 - 2022",
-        description: "Design, edit web site, data-entry tasks, quality analyst methodology, contracts analysis and product management among other tasks, using ReactJS basic, .Net , C# and SQL tools. Transfer PSD mock-ups to HTML5, use of Bootstrap, and Css rules, Responsive designs, Wordpress editions, etc.",
+        description: "Transfering PSD mockups to HTML and CSS, SASS, bootstrap with responsiveness sites. Images treatment with Photoshop. Checking clients data using Salesforce. Provided support to newly hired staff in user interface and experience design. Design, edit web site, data-entry tasks, quality analyst methodology, contracts analysis and product management development with tools like ASP NET, .Net Core, C# and SQL Server, MySQL, LINQ, Entity Framework among others on Desktop and Web. Provided support to newly hired staff in implementing web templates on the company CMS and experience design",
         current: false
       },
       {
         companyname: "Concentrix",
         position: "Chat & Email Advisor",
-        place: "Managua, Nic.",
+        place: "Managua, Nic. - ONSITE",
         date: "2017",
         description: "Technical assistant and product invoice reviews via emails and chats regarding Tech issues with their mobile devices and app store management.",
         current: false
@@ -59,7 +59,7 @@ const app = new Vue({
       {
         companyname: "Sitel",
         position: "Customer Service Representative",
-        place: "Managua, Nic.",
+        place: "Managua, Nic. - ONSITE",
         date: "2016",
         description: "Booking Specialist for American hotels and resorts and data entry tasks.",
         current: false
@@ -67,7 +67,7 @@ const app = new Vue({
       {
         companyname: "Manuel Hernandez High School",
         position: "Substitute Teacher",
-        place: "Carazo, Nic.",
+        place: "Carazo, Nic. - ONSITE",
         date: "2015",
         description: "Provide assistance and taught to students from a local High School in the assigments of Math and English.",
         current: false
@@ -75,7 +75,7 @@ const app = new Vue({
     {
         companyname: "Academia de Ingles",
         position: "English Teacher Part Time",
-        place: "Carazo, Nic.",
+        place: "Carazo, Nic. - ONSITE",
         date: "2012",
         description: "Taught basic English to young and adult people as second language.",
         current: false
@@ -83,7 +83,7 @@ const app = new Vue({
       {
         companyname: "INSUES Granada",
         position: "Computer Science Teacher",
-        place: "Granada, Nic.",
+        place: "Granada, Nic.- ONSITE",
         date: "2009",
         description: "Taught basic computer knowledge to young and adult people.",
         current: false
@@ -92,7 +92,7 @@ const app = new Vue({
     education: [{
         title: "Major in English Teacher",
         date: "",
-        entity: "UNAN Managua",
+        entity: "UNAN Managua - ",
         current: true
       },
       {
