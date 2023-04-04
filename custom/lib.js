@@ -32,11 +32,19 @@ const app = new Vue({
         url: "https://aburtocampos.blogspot.com"
       }
     ],
-    workexperience: [{
+    workexperience: [
+      {
+        companyname: "Phantera",
+        position: "Web Developer",
+        place: "Colombia - REMOTE",
+        date: "Aug. 2022 - Feb. 2023",
+        description: "Design, edit web site, using laravel, vuejs, vnilla javascript, bootstrap. Wireframing, prototyping using the UI - UX skills. Static html and css designs.",
+        current: false
+      },{
         companyname: "Media Sparehead Inc.",
         position: "Web Designer",
         place: "Managua, Nic. - REMOTE",
-        date: "2022",
+        date: "Apr. 2022 - Jul. 2022",
         description: "-(Part Time) Design, edit web site, using wordpress as designer only, and  some skills of graphic design, corporate and personal branding management and some tasks as data-entry. Wireframing, prototyping using the UI - UX skills. Static html and css designs. Rebuilt corporate website, simplifying graphics navigation and overall modernizing to accommodate new technology such as mobile devices",
         current: false
       },
@@ -44,7 +52,7 @@ const app = new Vue({
         companyname: "Accedo Technologies",
         position: "Web Designer / Developer",
         place: "Managua, Nic. - REMOTE/ONSITE",
-        date: "2018 - 2022",
+        date: "Feb. 2018 - Mar. 2022",
         description: "Transfering PSD mockups to HTML and CSS, SASS, bootstrap with responsiveness sites. Images treatment with Photoshop. Checking clients data using Salesforce. Provided support to newly hired staff in user interface and experience design. Design, edit web site, data-entry tasks, quality analyst methodology, contracts analysis and product management development with tools like ASP NET, .Net Core, C# and SQL Server, MySQL, LINQ, Entity Framework among others on Desktop and Web. Provided support to newly hired staff in implementing web templates on the company CMS and experience design",
         current: false
       },
