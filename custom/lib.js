@@ -34,6 +34,14 @@ const app = new Vue({
     ],
     workexperience: [
       {
+        companyname: "Optical BPO",
+        position: "Web Developer",
+        place: "REMOTE",
+        date: "May. 2023 - Sep. 2023",
+        description: "Create, modify or adjust responsive mockups in order to develop specific corporate websites, using reactjs, bootstrap.",
+        current: false
+      },
+      {
         companyname: "Phantera",
         position: "Web Developer",
         place: "Colombia - REMOTE",
