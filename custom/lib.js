@@ -7,21 +7,6 @@ const app = new Vue({
         url: "mailto:eabucam@gmail.com"
       },
       {
-        name: "",
-        icon: "fab fa-whatsapp",
-        url: "tel:"
-      },
-      {
-        name: "",
-        icon: "fab fa-whatsapp",
-        url: "tel:"
-      },
-      {
-        name: "",
-        icon: "fas fa-map-marker-alt",
-        url: ""
-      },
-      {
         name: "aburtoCampos",
         icon: "fab fa-linkedin",
         url: "https://www.linkedin.com/in/aburtoCampos"
