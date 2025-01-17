@@ -7,12 +7,12 @@ const app = new Vue({
         url: "mailto:eabucam@gmail.com"
       },
       {
-        name: "88503574",
+        name: "",
         icon: "fab fa-whatsapp",
         url: "tel:50588503574"
       },
       {
-        name: "76092930",
+        name: "",
         icon: "fab fa-whatsapp",
         url: "tel:50576092930"
       },
